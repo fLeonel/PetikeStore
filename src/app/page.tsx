@@ -1,7 +1,11 @@
-export default function Home() {
+import React from 'react';
+
+const HomePage = () => {
   return (
-    <div className="flexWrap flex-col">
-      <h1>PetikeStore</h1>
-    </div>
+    <div>
+      <h1>pagina de prueba</h1>
+    </div >
   );
-}
+};
+
+export default HomePage;
